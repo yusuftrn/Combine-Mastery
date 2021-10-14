@@ -11,7 +11,7 @@ import SwiftUI
 struct PublishersApp: App {
     var body: some Scene {
         WindowGroup {
-          Future_Intro()
+          Timer_Connect()
         }
     }
 }
