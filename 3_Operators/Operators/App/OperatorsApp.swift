@@ -11,7 +11,7 @@ import SwiftUI
 struct OperatorsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          DropUntilOutputFrom_Intro()
         }
     }
 }
