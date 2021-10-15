@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886817DB271997AC00789459 /* UrlDataTaskPublisher_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817DA271997AC00789459 /* UrlDataTaskPublisher_Intro.swift */; };
+		886817DD271997C000789459 /* UrlDataTaskPublisher_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817DC271997C000789459 /* UrlDataTaskPublisher_IntroViewModel.swift */; };
+		886817DF271997EA00789459 /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817DE271997EA00789459 /* BlogModel.swift */; };
+		886817E227199E5500789459 /* DataTaskPublisher_Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817E127199E5500789459 /* DataTaskPublisher_Errors.swift */; };
+		886817E427199E6700789459 /* DataTaskPublisher_ErrorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817E327199E6700789459 /* DataTaskPublisher_ErrorsViewModel.swift */; };
+		886817E627199E7300789459 /* ErrorForAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817E527199E7300789459 /* ErrorForAlert.swift */; };
+		886817E92719C12800789459 /* DataTaskPublisher_ForImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817E82719C12800789459 /* DataTaskPublisher_ForImages.swift */; };
+		886817EB2719C1CF00789459 /* DataTaskPublisher_ForImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817EA2719C1CF00789459 /* DataTaskPublisher_ForImagesViewModel.swift */; };
 		88925076270E293E002C2E71 /* Future_OnlyRunsOnceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88925075270E293E002C2E71 /* Future_OnlyRunsOnceViewModel.swift */; };
 		88925078270E2A0B002C2E71 /* Future_OnlyRunsOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88925077270E2A0B002C2E71 /* Future_OnlyRunsOnce.swift */; };
 		8892507B270E2CDA002C2E71 /* Future_RunMultipleTimesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892507A270E2CDA002C2E71 /* Future_RunMultipleTimesViewModel.swift */; };
@@ -40,6 +48,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		886817DA271997AC00789459 /* UrlDataTaskPublisher_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlDataTaskPublisher_Intro.swift; sourceTree = "<group>"; };
+		886817DC271997C000789459 /* UrlDataTaskPublisher_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlDataTaskPublisher_IntroViewModel.swift; sourceTree = "<group>"; };
+		886817DE271997EA00789459 /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
+		886817E127199E5500789459 /* DataTaskPublisher_Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisher_Errors.swift; sourceTree = "<group>"; };
+		886817E327199E6700789459 /* DataTaskPublisher_ErrorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisher_ErrorsViewModel.swift; sourceTree = "<group>"; };
+		886817E527199E7300789459 /* ErrorForAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorForAlert.swift; sourceTree = "<group>"; };
+		886817E82719C12800789459 /* DataTaskPublisher_ForImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisher_ForImages.swift; sourceTree = "<group>"; };
+		886817EA2719C1CF00789459 /* DataTaskPublisher_ForImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisher_ForImagesViewModel.swift; sourceTree = "<group>"; };
 		88925075270E293E002C2E71 /* Future_OnlyRunsOnceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_OnlyRunsOnceViewModel.swift; sourceTree = "<group>"; };
 		88925077270E2A0B002C2E71 /* Future_OnlyRunsOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_OnlyRunsOnce.swift; sourceTree = "<group>"; };
 		8892507A270E2CDA002C2E71 /* Future_RunMultipleTimesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_RunMultipleTimesViewModel.swift; sourceTree = "<group>"; };
@@ -87,8 +103,30 @@
 		880FFD062718AFB00090ACE6 /* URLSessions */ = {
 			isa = PBXGroup;
 			children = (
+				886817DA271997AC00789459 /* UrlDataTaskPublisher_Intro.swift */,
+				886817DC271997C000789459 /* UrlDataTaskPublisher_IntroViewModel.swift */,
+				886817DE271997EA00789459 /* BlogModel.swift */,
 			);
 			path = URLSessions;
+			sourceTree = "<group>";
+		};
+		886817E027199E3F00789459 /* HandlingErrors */ = {
+			isa = PBXGroup;
+			children = (
+				886817E127199E5500789459 /* DataTaskPublisher_Errors.swift */,
+				886817E327199E6700789459 /* DataTaskPublisher_ErrorsViewModel.swift */,
+				886817E527199E7300789459 /* ErrorForAlert.swift */,
+			);
+			path = HandlingErrors;
+			sourceTree = "<group>";
+		};
+		886817E72719C10B00789459 /* DataTaskPublisher_for_Images */ = {
+			isa = PBXGroup;
+			children = (
+				886817E82719C12800789459 /* DataTaskPublisher_ForImages.swift */,
+				886817EA2719C1CF00789459 /* DataTaskPublisher_ForImagesViewModel.swift */,
+			);
+			path = DataTaskPublisher_for_Images;
 			sourceTree = "<group>";
 		};
 		88925074270E2928002C2E71 /* Future_Only_Runs_Once */ = {
@@ -128,6 +166,8 @@
 		889ACF47270B81FF0066D314 /* Publishers */ = {
 			isa = PBXGroup;
 			children = (
+				886817E72719C10B00789459 /* DataTaskPublisher_for_Images */,
+				886817E027199E3F00789459 /* HandlingErrors */,
 				880FFD062718AFB00090ACE6 /* URLSessions */,
 				88C0ECF927109BF20008323E /* TimerConnect */,
 				88C0ECF4271097BF0008323E /* Timer */,
@@ -335,19 +375,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886817E427199E6700789459 /* DataTaskPublisher_ErrorsViewModel.swift in Sources */,
 				88C0ECE72710807E0008323E /* Just_IntroductionViewModel.swift in Sources */,
+				886817E92719C12800789459 /* DataTaskPublisher_ForImages.swift in Sources */,
 				88C0ECF12710914D0008323E /* SequenceIntroViewModel.swift in Sources */,
 				88C0ECFB27109BFF0008323E /* Timer_ConnectViewModel.swift in Sources */,
 				889ACF5E270B855D0066D314 /* Published_Introduction.swift in Sources */,
 				88C0ECF6271097C80008323E /* TimerIntroViewModel.swift in Sources */,
 				889ACF6F270BAA570066D314 /* Fail_Intro.swift in Sources */,
+				886817DB271997AC00789459 /* UrlDataTaskPublisher_Intro.swift in Sources */,
+				886817DD271997C000789459 /* UrlDataTaskPublisher_IntroViewModel.swift in Sources */,
+				886817E627199E7300789459 /* ErrorForAlert.swift in Sources */,
 				889ACF74270BB73B0066D314 /* Future_Intro.swift in Sources */,
 				889ACF60270B85E70066D314 /* Published_IntroductionViewModel.swift in Sources */,
 				889ACF76270BB82D0066D314 /* Future_IntroViewModel.swift in Sources */,
 				8892507B270E2CDA002C2E71 /* Future_RunMultipleTimesViewModel.swift in Sources */,
+				886817DF271997EA00789459 /* BlogModel.swift in Sources */,
 				889ACF71270BAA680066D314 /* Fail_IntroViewModel.swift in Sources */,
 				88C0ECEC271089360008323E /* PassthroughSubjectViewModel.swift in Sources */,
 				889ACF4B270B81FF0066D314 /* ContentView.swift in Sources */,
+				886817E227199E5500789459 /* DataTaskPublisher_Errors.swift in Sources */,
 				88C0ECE9271081430008323E /* Just_Introduction.swift in Sources */,
 				889ACF68270B9D6E0066D314 /* Empty_Intro.swift in Sources */,
 				88C0ECEE271089D40008323E /* PassthroughSubject_Intro.swift in Sources */,
@@ -356,6 +403,7 @@
 				889ACF59270B82510066D314 /* HeaderView.swift in Sources */,
 				889ACF65270B93D20066D314 /* CurrentValueSubjectViewModel.swift in Sources */,
 				88C0ECFD27109CB60008323E /* Timer_Connect.swift in Sources */,
+				886817EB2719C1CF00789459 /* DataTaskPublisher_ForImagesViewModel.swift in Sources */,
 				8892507D270E2D31002C2E71 /* Future_RunMultipleTimes.swift in Sources */,
 				88C0ECF3271092BB0008323E /* Sequence_Intro.swift in Sources */,
 				889ACF6A270B9D7B0066D314 /* Empty_IntroViewModel.swift in Sources */,

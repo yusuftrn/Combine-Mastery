@@ -11,7 +11,7 @@ import SwiftUI
 struct PublishersApp: App {
     var body: some Scene {
         WindowGroup {
-          Timer_Connect()
+          DataTaskPublisher_ForImages()
         }
     }
 }
