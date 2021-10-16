@@ -37,4 +37,3 @@ class Timeout_IntroViewModel: ObservableObject {
       })
   }
 }
-

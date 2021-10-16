@@ -36,6 +36,9 @@
 		88B163FC271AEA9F00FD45B7 /* Throttle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163FB271AEA9F00FD45B7 /* Throttle_Intro.swift */; };
 		88B163FF271AEFC700FD45B7 /* Timeout_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163FE271AEFC700FD45B7 /* Timeout_IntroViewModel.swift */; };
 		88B16401271AF0F100FD45B7 /* Timeout_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16400271AF0F100FD45B7 /* Timeout_Intro.swift */; };
+		88B16405271B0B4900FD45B7 /* SetFailureType_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16404271B0B4900FD45B7 /* SetFailureType_Intro.swift */; };
+		88B16407271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16406271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift */; };
+		88B1640A271B135400FD45B7 /* Scan_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16409271B135400FD45B7 /* Scan_IntroViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,9 @@
 		88B163FB271AEA9F00FD45B7 /* Throttle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle_Intro.swift; sourceTree = "<group>"; };
 		88B163FE271AEFC700FD45B7 /* Timeout_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeout_IntroViewModel.swift; sourceTree = "<group>"; };
 		88B16400271AF0F100FD45B7 /* Timeout_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeout_Intro.swift; sourceTree = "<group>"; };
+		88B16404271B0B4900FD45B7 /* SetFailureType_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureType_Intro.swift; sourceTree = "<group>"; };
+		88B16406271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureType_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B16409271B135400FD45B7 /* Scan_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan_IntroViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,7 @@
 		88040303271A1C7E00BA3274 /* Applying_Sequence_Operations */ = {
 			isa = PBXGroup;
 			children = (
+				88B16408271B134D00FD45B7 /* Scan */,
 				88040305271A1CA300BA3274 /* Drop_untilOutputFrom */,
 				88040304271A1C9000BA3274 /* README.md */,
 			);
@@ -215,6 +222,7 @@
 		886817F72719D53C00789459 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
+				88B16403271B0B3300FD45B7 /* SetFailureType */,
 				88B163E7271AD26000FD45B7 /* Controlling_Timing */,
 				88040303271A1C7E00BA3274 /* Applying_Sequence_Operations */,
 				880402F9271A145A00BA3274 /* Applying_Mathematical_Operations */,
@@ -292,6 +300,23 @@
 			path = Timeout;
 			sourceTree = "<group>";
 		};
+		88B16403271B0B3300FD45B7 /* SetFailureType */ = {
+			isa = PBXGroup;
+			children = (
+				88B16404271B0B4900FD45B7 /* SetFailureType_Intro.swift */,
+				88B16406271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift */,
+			);
+			path = SetFailureType;
+			sourceTree = "<group>";
+		};
+		88B16408271B134D00FD45B7 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				88B16409271B135400FD45B7 /* Scan_IntroViewModel.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B1640A271B135400FD45B7 /* Scan_IntroViewModel.swift in Sources */,
 				880402F1271A003700BA3274 /* Contains_Where.swift in Sources */,
 				886817FB2719D53C00789459 /* ContentView.swift in Sources */,
 				880402D82719D5ED00BA3274 /* HeaderView.swift in Sources */,
@@ -370,12 +396,14 @@
 				88B163FA271AE74400FD45B7 /* Throttle_IntroViewModel.swift in Sources */,
 				88040309271A1D4500BA3274 /* DropUntilOutputFrom_IntroViewModel.swift in Sources */,
 				88B163FF271AEFC700FD45B7 /* Timeout_IntroViewModel.swift in Sources */,
+				88B16407271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift in Sources */,
 				880402EC2719F8C200BA3274 /* Contains_Intro.swift in Sources */,
 				88B163F2271AD8FD00FD45B7 /* DelayFor_Intro.swift in Sources */,
 				880402F8271A042F00BA3274 /* TryContains_WhereViewModel.swift in Sources */,
 				880402DF2719E12700BA3274 /* AllSatisfy_IntroViewModel.swift in Sources */,
 				88B163EA271AD40D00FD45B7 /* DebounceViewModel.swift in Sources */,
 				880402FF271A16C900BA3274 /* Count_Intro.swift in Sources */,
+				88B16405271B0B4900FD45B7 /* SetFailureType_Intro.swift in Sources */,
 				886817F92719D53C00789459 /* OperatorsApp.swift in Sources */,
 				88B16401271AF0F100FD45B7 /* Timeout_Intro.swift in Sources */,
 				88B163FC271AEA9F00FD45B7 /* Throttle_Intro.swift in Sources */,
