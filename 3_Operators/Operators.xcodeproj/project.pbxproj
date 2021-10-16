@@ -26,6 +26,16 @@
 		886817FB2719D53C00789459 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886817FA2719D53C00789459 /* ContentView.swift */; };
 		886817FD2719D53D00789459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886817FC2719D53D00789459 /* Assets.xcassets */; };
 		886818002719D53D00789459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886817FF2719D53D00789459 /* Preview Assets.xcassets */; };
+		88B163EA271AD40D00FD45B7 /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163E9271AD40D00FD45B7 /* DebounceViewModel.swift */; };
+		88B163ED271AD45400FD45B7 /* Debounce_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163EC271AD45400FD45B7 /* Debounce_Intro.swift */; };
+		88B163F0271AD78200FD45B7 /* DelayFor_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163EF271AD78200FD45B7 /* DelayFor_IntroViewModel.swift */; };
+		88B163F2271AD8FD00FD45B7 /* DelayFor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163F1271AD8FD00FD45B7 /* DelayFor_Intro.swift */; };
+		88B163F5271ADEF400FD45B7 /* MeasureInterval_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163F4271ADEF400FD45B7 /* MeasureInterval_IntroViewModel.swift */; };
+		88B163F7271ADF5A00FD45B7 /* MeasureInterval_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163F6271ADF5A00FD45B7 /* MeasureInterval_Intro.swift */; };
+		88B163FA271AE74400FD45B7 /* Throttle_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163F9271AE74400FD45B7 /* Throttle_IntroViewModel.swift */; };
+		88B163FC271AEA9F00FD45B7 /* Throttle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163FB271AEA9F00FD45B7 /* Throttle_Intro.swift */; };
+		88B163FF271AEFC700FD45B7 /* Timeout_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B163FE271AEFC700FD45B7 /* Timeout_IntroViewModel.swift */; };
+		88B16401271AF0F100FD45B7 /* Timeout_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16400271AF0F100FD45B7 /* Timeout_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +62,16 @@
 		886817FA2719D53C00789459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		886817FC2719D53D00789459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		886817FF2719D53D00789459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88B163E9271AD40D00FD45B7 /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
+		88B163EC271AD45400FD45B7 /* Debounce_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce_Intro.swift; sourceTree = "<group>"; };
+		88B163EF271AD78200FD45B7 /* DelayFor_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayFor_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B163F1271AD8FD00FD45B7 /* DelayFor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayFor_Intro.swift; sourceTree = "<group>"; };
+		88B163F4271ADEF400FD45B7 /* MeasureInterval_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureInterval_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B163F6271ADF5A00FD45B7 /* MeasureInterval_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureInterval_Intro.swift; sourceTree = "<group>"; };
+		88B163F9271AE74400FD45B7 /* Throttle_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B163FB271AEA9F00FD45B7 /* Throttle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle_Intro.swift; sourceTree = "<group>"; };
+		88B163FE271AEFC700FD45B7 /* Timeout_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeout_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B16400271AF0F100FD45B7 /* Timeout_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeout_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +215,7 @@
 		886817F72719D53C00789459 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
+				88B163E7271AD26000FD45B7 /* Controlling_Timing */,
 				88040303271A1C7E00BA3274 /* Applying_Sequence_Operations */,
 				880402F9271A145A00BA3274 /* Applying_Mathematical_Operations */,
 				880402DB2719D7BC00BA3274 /* Applying_Matching_Criteria_To_Elements */,
@@ -212,6 +233,63 @@
 				886817FF2719D53D00789459 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88B163E7271AD26000FD45B7 /* Controlling_Timing */ = {
+			isa = PBXGroup;
+			children = (
+				88B163FD271AEFBA00FD45B7 /* Timeout */,
+				88B163F8271AE73A00FD45B7 /* Throttle */,
+				88B163F3271ADEEA00FD45B7 /* MeasureInterval */,
+				88B163EE271AD77700FD45B7 /* Delay_for */,
+				88B163E8271AD40300FD45B7 /* Debounce */,
+			);
+			path = Controlling_Timing;
+			sourceTree = "<group>";
+		};
+		88B163E8271AD40300FD45B7 /* Debounce */ = {
+			isa = PBXGroup;
+			children = (
+				88B163E9271AD40D00FD45B7 /* DebounceViewModel.swift */,
+				88B163EC271AD45400FD45B7 /* Debounce_Intro.swift */,
+			);
+			path = Debounce;
+			sourceTree = "<group>";
+		};
+		88B163EE271AD77700FD45B7 /* Delay_for */ = {
+			isa = PBXGroup;
+			children = (
+				88B163EF271AD78200FD45B7 /* DelayFor_IntroViewModel.swift */,
+				88B163F1271AD8FD00FD45B7 /* DelayFor_Intro.swift */,
+			);
+			path = Delay_for;
+			sourceTree = "<group>";
+		};
+		88B163F3271ADEEA00FD45B7 /* MeasureInterval */ = {
+			isa = PBXGroup;
+			children = (
+				88B163F4271ADEF400FD45B7 /* MeasureInterval_IntroViewModel.swift */,
+				88B163F6271ADF5A00FD45B7 /* MeasureInterval_Intro.swift */,
+			);
+			path = MeasureInterval;
+			sourceTree = "<group>";
+		};
+		88B163F8271AE73A00FD45B7 /* Throttle */ = {
+			isa = PBXGroup;
+			children = (
+				88B163F9271AE74400FD45B7 /* Throttle_IntroViewModel.swift */,
+				88B163FB271AEA9F00FD45B7 /* Throttle_Intro.swift */,
+			);
+			path = Throttle;
+			sourceTree = "<group>";
+		};
+		88B163FD271AEFBA00FD45B7 /* Timeout */ = {
+			isa = PBXGroup;
+			children = (
+				88B163FE271AEFC700FD45B7 /* Timeout_IntroViewModel.swift */,
+				88B16400271AF0F100FD45B7 /* Timeout_Intro.swift */,
+			);
+			path = Timeout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,16 +367,26 @@
 				880402D82719D5ED00BA3274 /* HeaderView.swift in Sources */,
 				880402F3271A004000BA3274 /* Contains_WhereViewModel.swift in Sources */,
 				880402E12719E1EA00BA3274 /* AllSatisfy_Intro.swift in Sources */,
+				88B163FA271AE74400FD45B7 /* Throttle_IntroViewModel.swift in Sources */,
 				88040309271A1D4500BA3274 /* DropUntilOutputFrom_IntroViewModel.swift in Sources */,
+				88B163FF271AEFC700FD45B7 /* Timeout_IntroViewModel.swift in Sources */,
 				880402EC2719F8C200BA3274 /* Contains_Intro.swift in Sources */,
+				88B163F2271AD8FD00FD45B7 /* DelayFor_Intro.swift in Sources */,
 				880402F8271A042F00BA3274 /* TryContains_WhereViewModel.swift in Sources */,
 				880402DF2719E12700BA3274 /* AllSatisfy_IntroViewModel.swift in Sources */,
+				88B163EA271AD40D00FD45B7 /* DebounceViewModel.swift in Sources */,
 				880402FF271A16C900BA3274 /* Count_Intro.swift in Sources */,
 				886817F92719D53C00789459 /* OperatorsApp.swift in Sources */,
+				88B16401271AF0F100FD45B7 /* Timeout_Intro.swift in Sources */,
+				88B163FC271AEA9F00FD45B7 /* Throttle_Intro.swift in Sources */,
+				88B163F5271ADEF400FD45B7 /* MeasureInterval_IntroViewModel.swift in Sources */,
+				88B163F7271ADF5A00FD45B7 /* MeasureInterval_Intro.swift in Sources */,
 				880402EE2719F8D000BA3274 /* Contains_IntroViewModel.swift in Sources */,
+				88B163ED271AD45400FD45B7 /* Debounce_Intro.swift in Sources */,
 				88040307271A1D3A00BA3274 /* DropUntilOutputFrom_Intro.swift in Sources */,
 				880402F6271A042200BA3274 /* TryContains_Where.swift in Sources */,
 				880402FD271A166300BA3274 /* Count_IntroViewModel.swift in Sources */,
+				88B163F0271AD78200FD45B7 /* DelayFor_IntroViewModel.swift in Sources */,
 				88040302271A186500BA3274 /* Max_MaxBy.swift in Sources */,
 				880402DA2719D60100BA3274 /* DescriptionView.swift in Sources */,
 			);

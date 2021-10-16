@@ -11,7 +11,7 @@ import SwiftUI
 struct OperatorsApp: App {
     var body: some Scene {
         WindowGroup {
-          DropUntilOutputFrom_Intro()
+          Timeout_Intro()
         }
     }
 }
