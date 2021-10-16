@@ -39,6 +39,19 @@
 		88B16405271B0B4900FD45B7 /* SetFailureType_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16404271B0B4900FD45B7 /* SetFailureType_Intro.swift */; };
 		88B16407271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16406271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift */; };
 		88B1640A271B135400FD45B7 /* Scan_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16409271B135400FD45B7 /* Scan_IntroViewModel.swift */; };
+		88B1640E271B4D1D00FD45B7 /* Receive_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1640D271B4D1D00FD45B7 /* Receive_IntroViewModel.swift */; };
+		88B16410271B505800FD45B7 /* Receive_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1640F271B505800FD45B7 /* Receive_Intro.swift */; };
+		88B16414271B57E600FD45B7 /* Subscribe_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16413271B57E600FD45B7 /* Subscribe_IntroViewModel.swift */; };
+		88B16416271B58EB00FD45B7 /* Subscribe_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16415271B58EB00FD45B7 /* Subscribe_Intro.swift */; };
+		88B1641A271B6E5000FD45B7 /* AssignToViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16419271B6E5000FD45B7 /* AssignToViewModel.swift */; };
+		88B1641C271B6F8D00FD45B7 /* AssignTo_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1641B271B6F8C00FD45B7 /* AssignTo_Intro.swift */; };
+		88B1641F271B758000FD45B7 /* Sink_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1641E271B758000FD45B7 /* Sink_IntroViewModel.swift */; };
+		88B16421271B764400FD45B7 /* Sink_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16420271B764400FD45B7 /* Sink_Intro.swift */; };
+		88B16424271B77F400FD45B7 /* SinkCompletionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16423271B77F400FD45B7 /* SinkCompletionViewModel.swift */; };
+		88B16426271B788C00FD45B7 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16425271B788C00FD45B7 /* ProcessingView.swift */; };
+		88B16428271B790500FD45B7 /* Sink_Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B16427271B790500FD45B7 /* Sink_Completion.swift */; };
+		88B1642B271B7B3600FD45B7 /* SinkCompletionErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1642A271B7B3600FD45B7 /* SinkCompletionErrorViewModel.swift */; };
+		88B1642D271B7D9000FD45B7 /* Sink_Completion_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1642C271B7D9000FD45B7 /* Sink_Completion_Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +91,20 @@
 		88B16404271B0B4900FD45B7 /* SetFailureType_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureType_Intro.swift; sourceTree = "<group>"; };
 		88B16406271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureType_IntroViewModel.swift; sourceTree = "<group>"; };
 		88B16409271B135400FD45B7 /* Scan_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B1640D271B4D1D00FD45B7 /* Receive_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receive_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B1640F271B505800FD45B7 /* Receive_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receive_Intro.swift; sourceTree = "<group>"; };
+		88B16411271B54CA00FD45B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88B16413271B57E600FD45B7 /* Subscribe_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscribe_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B16415271B58EB00FD45B7 /* Subscribe_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscribe_Intro.swift; sourceTree = "<group>"; };
+		88B16419271B6E5000FD45B7 /* AssignToViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignToViewModel.swift; sourceTree = "<group>"; };
+		88B1641B271B6F8C00FD45B7 /* AssignTo_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignTo_Intro.swift; sourceTree = "<group>"; };
+		88B1641E271B758000FD45B7 /* Sink_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink_IntroViewModel.swift; sourceTree = "<group>"; };
+		88B16420271B764400FD45B7 /* Sink_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink_Intro.swift; sourceTree = "<group>"; };
+		88B16423271B77F400FD45B7 /* SinkCompletionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkCompletionViewModel.swift; sourceTree = "<group>"; };
+		88B16425271B788C00FD45B7 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		88B16427271B790500FD45B7 /* Sink_Completion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink_Completion.swift; sourceTree = "<group>"; };
+		88B1642A271B7B3600FD45B7 /* SinkCompletionErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkCompletionErrorViewModel.swift; sourceTree = "<group>"; };
+		88B1642C271B7D9000FD45B7 /* Sink_Completion_Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink_Completion_Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +249,8 @@
 		886817F72719D53C00789459 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
+				88B16417271B6DB600FD45B7 /* Subscribers */,
+				88B1640B271B4CCA00FD45B7 /* Specifying_Schedulers */,
 				88B16403271B0B3300FD45B7 /* SetFailureType */,
 				88B163E7271AD26000FD45B7 /* Controlling_Timing */,
 				88040303271A1C7E00BA3274 /* Applying_Sequence_Operations */,
@@ -230,6 +259,7 @@
 				880402D52719D5A000BA3274 /* CoreViews */,
 				880402D62719D5BD00BA3274 /* App */,
 				886817FC2719D53D00789459 /* Assets.xcassets */,
+				88B16411271B54CA00FD45B7 /* Info.plist */,
 				886817FE2719D53D00789459 /* Preview Content */,
 			);
 			path = Operators;
@@ -317,6 +347,81 @@
 			path = Scan;
 			sourceTree = "<group>";
 		};
+		88B1640B271B4CCA00FD45B7 /* Specifying_Schedulers */ = {
+			isa = PBXGroup;
+			children = (
+				88B16412271B57D400FD45B7 /* Subscribe_On */,
+				88B1640C271B4D1300FD45B7 /* Receive_On */,
+			);
+			path = Specifying_Schedulers;
+			sourceTree = "<group>";
+		};
+		88B1640C271B4D1300FD45B7 /* Receive_On */ = {
+			isa = PBXGroup;
+			children = (
+				88B1640D271B4D1D00FD45B7 /* Receive_IntroViewModel.swift */,
+				88B1640F271B505800FD45B7 /* Receive_Intro.swift */,
+			);
+			path = Receive_On;
+			sourceTree = "<group>";
+		};
+		88B16412271B57D400FD45B7 /* Subscribe_On */ = {
+			isa = PBXGroup;
+			children = (
+				88B16413271B57E600FD45B7 /* Subscribe_IntroViewModel.swift */,
+				88B16415271B58EB00FD45B7 /* Subscribe_Intro.swift */,
+			);
+			path = Subscribe_On;
+			sourceTree = "<group>";
+		};
+		88B16417271B6DB600FD45B7 /* Subscribers */ = {
+			isa = PBXGroup;
+			children = (
+				88B16429271B7B1800FD45B7 /* Sink_ErrorHandling */,
+				88B16422271B77D100FD45B7 /* Sink_Completion */,
+				88B1641D271B756F00FD45B7 /* Sink */,
+				88B16418271B6DCC00FD45B7 /* Assign_to */,
+			);
+			path = Subscribers;
+			sourceTree = "<group>";
+		};
+		88B16418271B6DCC00FD45B7 /* Assign_to */ = {
+			isa = PBXGroup;
+			children = (
+				88B16419271B6E5000FD45B7 /* AssignToViewModel.swift */,
+				88B1641B271B6F8C00FD45B7 /* AssignTo_Intro.swift */,
+			);
+			path = Assign_to;
+			sourceTree = "<group>";
+		};
+		88B1641D271B756F00FD45B7 /* Sink */ = {
+			isa = PBXGroup;
+			children = (
+				88B1641E271B758000FD45B7 /* Sink_IntroViewModel.swift */,
+				88B16420271B764400FD45B7 /* Sink_Intro.swift */,
+			);
+			path = Sink;
+			sourceTree = "<group>";
+		};
+		88B16422271B77D100FD45B7 /* Sink_Completion */ = {
+			isa = PBXGroup;
+			children = (
+				88B16423271B77F400FD45B7 /* SinkCompletionViewModel.swift */,
+				88B16425271B788C00FD45B7 /* ProcessingView.swift */,
+				88B16427271B790500FD45B7 /* Sink_Completion.swift */,
+			);
+			path = Sink_Completion;
+			sourceTree = "<group>";
+		};
+		88B16429271B7B1800FD45B7 /* Sink_ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				88B1642A271B7B3600FD45B7 /* SinkCompletionErrorViewModel.swift */,
+				88B1642C271B7D9000FD45B7 /* Sink_Completion_Error.swift */,
+			);
+			path = Sink_ErrorHandling;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -390,21 +495,27 @@
 				88B1640A271B135400FD45B7 /* Scan_IntroViewModel.swift in Sources */,
 				880402F1271A003700BA3274 /* Contains_Where.swift in Sources */,
 				886817FB2719D53C00789459 /* ContentView.swift in Sources */,
+				88B16414271B57E600FD45B7 /* Subscribe_IntroViewModel.swift in Sources */,
 				880402D82719D5ED00BA3274 /* HeaderView.swift in Sources */,
 				880402F3271A004000BA3274 /* Contains_WhereViewModel.swift in Sources */,
+				88B1642B271B7B3600FD45B7 /* SinkCompletionErrorViewModel.swift in Sources */,
 				880402E12719E1EA00BA3274 /* AllSatisfy_Intro.swift in Sources */,
 				88B163FA271AE74400FD45B7 /* Throttle_IntroViewModel.swift in Sources */,
 				88040309271A1D4500BA3274 /* DropUntilOutputFrom_IntroViewModel.swift in Sources */,
 				88B163FF271AEFC700FD45B7 /* Timeout_IntroViewModel.swift in Sources */,
 				88B16407271B0B5700FD45B7 /* SetFailureType_IntroViewModel.swift in Sources */,
 				880402EC2719F8C200BA3274 /* Contains_Intro.swift in Sources */,
+				88B1640E271B4D1D00FD45B7 /* Receive_IntroViewModel.swift in Sources */,
 				88B163F2271AD8FD00FD45B7 /* DelayFor_Intro.swift in Sources */,
 				880402F8271A042F00BA3274 /* TryContains_WhereViewModel.swift in Sources */,
 				880402DF2719E12700BA3274 /* AllSatisfy_IntroViewModel.swift in Sources */,
 				88B163EA271AD40D00FD45B7 /* DebounceViewModel.swift in Sources */,
 				880402FF271A16C900BA3274 /* Count_Intro.swift in Sources */,
+				88B1642D271B7D9000FD45B7 /* Sink_Completion_Error.swift in Sources */,
+				88B1641F271B758000FD45B7 /* Sink_IntroViewModel.swift in Sources */,
 				88B16405271B0B4900FD45B7 /* SetFailureType_Intro.swift in Sources */,
 				886817F92719D53C00789459 /* OperatorsApp.swift in Sources */,
+				88B1641A271B6E5000FD45B7 /* AssignToViewModel.swift in Sources */,
 				88B16401271AF0F100FD45B7 /* Timeout_Intro.swift in Sources */,
 				88B163FC271AEA9F00FD45B7 /* Throttle_Intro.swift in Sources */,
 				88B163F5271ADEF400FD45B7 /* MeasureInterval_IntroViewModel.swift in Sources */,
@@ -414,9 +525,16 @@
 				88040307271A1D3A00BA3274 /* DropUntilOutputFrom_Intro.swift in Sources */,
 				880402F6271A042200BA3274 /* TryContains_Where.swift in Sources */,
 				880402FD271A166300BA3274 /* Count_IntroViewModel.swift in Sources */,
+				88B16426271B788C00FD45B7 /* ProcessingView.swift in Sources */,
+				88B1641C271B6F8D00FD45B7 /* AssignTo_Intro.swift in Sources */,
+				88B16410271B505800FD45B7 /* Receive_Intro.swift in Sources */,
+				88B16424271B77F400FD45B7 /* SinkCompletionViewModel.swift in Sources */,
+				88B16421271B764400FD45B7 /* Sink_Intro.swift in Sources */,
+				88B16428271B790500FD45B7 /* Sink_Completion.swift in Sources */,
 				88B163F0271AD78200FD45B7 /* DelayFor_IntroViewModel.swift in Sources */,
 				88040302271A186500BA3274 /* Max_MaxBy.swift in Sources */,
 				880402DA2719D60100BA3274 /* DescriptionView.swift in Sources */,
+				88B16416271B58EB00FD45B7 /* Subscribe_Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +668,8 @@
 				DEVELOPMENT_TEAM = 7772ZUX4ZL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Operators/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -580,6 +700,8 @@
 				DEVELOPMENT_TEAM = 7772ZUX4ZL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Operators/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
