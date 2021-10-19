@@ -11,7 +11,7 @@ import SwiftUI
 struct OperatorsApp: App {
     var body: some Scene {
         WindowGroup {
-          Sink_Completion_Error()
+          FlatMap_Intro()
         }
     }
 }
